@@ -1,6 +1,6 @@
-description: Ultralytics best model trained on toothbrushes-Toothpaste-Soap-1/data.yaml
+description: Ultralytics best model trained on /app/data/data.yaml
 author: Ultralytics
-date: '2025-02-16T17:24:39.203450'
+date: '2025-02-16T17:20:26.598354'
 version: 8.3.75
 license: AGPL-3.0 License (https://ultralytics.com/license)
 docs: https://docs.ultralytics.com

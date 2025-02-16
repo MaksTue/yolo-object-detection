@@ -10,3 +10,5 @@ model = YOLO("yolov8n.pt")
 
 # Запускаем обучение с правильными путями
 model.train(data=os.path.join(data_dir, "data.yaml"), epochs=50, imgsz=416, project=output_dir)
+
+model.export(format='tflite', project=output_dir)

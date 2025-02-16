@@ -17,7 +17,11 @@ cd yolo-object-detection
 Можно использовать код из datasetDownloadAndExportModel.ipynb
 Скачайте датасет с [Roboflow: Toothbrushes, Toothpaste, and Soap](https://universe.roboflow.com/lab31/toothbrushes-toothpaste-soap).
 
+поменять пути в data.yaml на
 
+test: /app/data/test/images
+train: /app/data/train/images
+val: /app/data/valid/images
 
 ### 3. Построение Docker образа
 
@@ -29,7 +33,7 @@ docker build -t yolo-object-detection .
 
 Далее запускаем контейнер с обучением
 ```bash
-docker run --ipc=host --gpus all -v /path/to/your/dataset:/app/data -v /path/to/your/results:/app/results yolo-object-detection
+docker run  --gpus all -v /path/to/your/dataset:/app/data -v /path/to/your/results:/app/results yolo-object-detection
 ```
 Результат обучения будет в папке results/
 ### 4. Экспорт и тест
