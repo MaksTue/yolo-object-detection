@@ -36,3 +36,5 @@ docker run --ipc=host --gpus all -v /path/to/your/dataset:/app/data -v /path/to/
 В datasetDownloadAndExportModel.ipynb есть пример экспорта в tflite формат
 
 После экспорта можно воспользоваться этим [репозиторием](https://github.com/surendramaran/YOLO/tree/main/YOLOv8-Object-Detector-Android-Tflite) чтобы проверить работу на мобильном устройстве
+
+В results/train/weights/best_saved_model/ лежит экспорт модели тестового примера

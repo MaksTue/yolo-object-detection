@@ -1,0 +1,21 @@
+description: Ultralytics best model trained on toothbrushes-Toothpaste-Soap-1/data.yaml
+author: Ultralytics
+date: '2025-02-16T17:24:39.203450'
+version: 8.3.75
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 416
+- 416
+names:
+  0: Soap
+  1: Toothbrush
+  2: Toothpaste
+args:
+  batch: 1
+  half: false
+  int8: false
+  nms: false
