@@ -1,3 +1,6 @@
 .venv
 dataset/
 .idea
+YOLOv8-Object-Detector-Android-Tflite/.gradle/
+YOLOv8-Object-Detector-Android-Tflite/.idea/
+YOLOv8-Object-Detector-Android-Tflite/build/
